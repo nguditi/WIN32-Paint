@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Application xmlns='http://schemas.microsoft.com/windows/2009/Ribbon'>
+  <Application.Commands>
+    
+    <Command Name="cmdButtonNew"
+             Symbol="ID_CMD_NEW"
+             LabelTitle="New"
+             TooltipTitle="New (Ctrl+N)"
+             TooltipDescription="Create a new image.">
+      <Command.LargeImages>
+        <Image>Res/New32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonSaveas"
+             Symbol="ID_CMD_SAVEAS"
+             LabelTitle="Save as "
+             TooltipTitle="Save as"
+             TooltipDescription="Save as...">
+      <Command.LargeImages>
+        <Image>Res/saveas32.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonUndo"
+            Symbol="ID_CMD_UNDO"
+            LabelTitle="Undo"
+            TooltipTitle="Undo (Ctrl+Z)"
+            TooltipDescription="Undo a shape">
+      <Command.LargeImages>
+        <Image>Res/New32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdButtonOpen"
+             Symbol="ID_CMD_OPEN"
+             LabelTitle="Open"
+             TooltipTitle="Open (Ctrl+O)"
+             TooltipDescription="Open an existing image.">
+      <Command.LargeImages>
+        <Image>Res/Open32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonSave"
+             Symbol="ID_CMD_SAVE"
+             LabelTitle="Save"
+             TooltipTitle="Save (Ctrl+S)"
+             TooltipDescription="Save the current image.">
+      <Command.LargeImages>
+        <Image>Res/Save32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdButtonExit"
+             Symbol="ID_CMD_EXIT"
+             LabelTitle="Exit"
+             TooltipTitle="Exit (Ctrl+X)"
+             TooltipDescription ="Exit application.">
+      <Command.LargeImages>
+        <Image>Res/Exit32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdLine"
+             Symbol="ID_CMD_LINE"
+             LabelTitle="Line"
+             TooltipDescription="Draw a line">
+      <Command.LargeImages>
+        <Image>Res/line_120.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdRectangle"
+             Symbol="ID_CMD_RECTANGLE"
+             LabelTitle="Rectangle"
+             TooltipDescription="Draw a rectangle">
+      <Command.LargeImages>
+        <Image>Res/rectangle_120.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdElipse"
+             Symbol="ID_CMD_Elipse"
+             LabelTitle="Elipse"
+             TooltipDescription="Draw an elipse">
+      <Command.LargeImages>
+        <Image>Res/elipse_120.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdColor"
+             Symbol="ID_CMD_COLORBORDER"
+             LabelTitle="Color of border"
+             TooltipDescription="Color of border">
+      <Command.LargeImages>
+        <Image>Res/Color.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdColorSolid"
+            Symbol="ID_CMD_COLORSOLID"
+            LabelTitle="Solid color"
+            TooltipDescription="Color of shape">
+      <Command.LargeImages>
+        <Image>Res/Solid.png</Image>
+      </Command.LargeImages>
+    </Command>
+
+ <Command Name="cmdNoColor"
+            Symbol="ID_CMD_TRANSPARENT"
+            LabelTitle="Transparent"
+            TooltipDescription="Shape with no color">
+      <Command.LargeImages>
+        <Image>Res/transparent32.png</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdBorderSizes"
+             Symbol="ID_CMD_SIZE"
+             LabelTitle= "Size">
+      <Command.LargeImages>
+        <Image>Res/size.png</Image>
+      </Command.LargeImages>
+    </Command>    
+    
+    <Command Name="cmdDashStyles"
+             Symbol="ID_CMD_STYLE"
+             LabelTitle= "Style">
+      <Command.LargeImages>
+        <Image>Res/style.png</Image>
+      </Command.LargeImages>
+    </Command>   
+
+
+
+    <Command Name="cmdTabMain"
+             LabelTitle="Main">
+    </Command>
+
+    <Command Name="cmdBorder"
+             LabelTitle="Viền">
+    </Command>
+
+    <Command Name="cmdShape"
+             LabelTitle= "Hình">
+    </Command>
+  
+    <Command Name="cmdContextMap1" Comment="Shape" Symbol="IDC_CMD_CONTEXTMAP1"/>
+  
+  </Application.Commands>
+
+	<Application.Views>
+		<Ribbon>
+      
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu CommandName="cmdFileMenu">
+          <MenuGroup Class="MajorItems">
+            <Button CommandName="cmdButtonNew" />
+            <Button CommandName="cmdButtonOpen" />
+            <Button CommandName="cmdButtonSave" />
+            <Button CommandName="cmdButtonSaveas"/>
+            <Button CommandName="cmdButtonExit" />
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+      
+      <Ribbon.Tabs> 
+          
+        <Tab CommandName="cmdTabMain">  
+          <Group CommandName="cmdShape" SizeDefinition="FiveButtons" >
+            <ToggleButton CommandName="cmdLine"/>
+            <ToggleButton CommandName="cmdRectangle" />
+            <ToggleButton CommandName="cmdElipse" />
+            <ToggleButton CommandName="cmdColorSolid" />
+            <ToggleButton CommandName="cmdNoColor" />
+          </Group>
+          
+          <Group CommandName="cmdBorder" SizeDefinition="ThreeButtons">
+            <DropDownGallery CommandName="cmdBorderSizes" TextPosition="Hide" ItemHeight="32" ItemWidth="128" HasLargeItems="true">
+                  <DropDownGallery.MenuLayout>
+                      <FlowMenuLayout Columns='1' Rows='4' Gripper='None' />
+                 </DropDownGallery.MenuLayout>   
+            </DropDownGallery>
+             <DropDownGallery CommandName="cmdDashStyles" TextPosition="Hide" ItemHeight="32" ItemWidth="128" HasLargeItems="true">
+                  <DropDownGallery.MenuLayout>
+                      <FlowMenuLayout Columns='1' Rows='4' Gripper='None' />
+                 </DropDownGallery.MenuLayout>
+            </DropDownGallery>
+            <Button CommandName="cmdColor" />
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+		</Ribbon>
+    <ContextPopup>
+        <ContextPopup.ContextMenus>
+        <ContextMenu Name="ContextMenu1">
+          <MenuGroup>
+            <ToggleButton CommandName="cmdLine" />
+            <ToggleButton CommandName="cmdRectangle" />
+            <ToggleButton CommandName="cmdElipse" />
+          </MenuGroup>
+        </ContextMenu>
+        </ContextPopup.ContextMenus>
+      
+        <ContextPopup.ContextMaps>
+            <ContextMap CommandName="cmdContextMap1" ContextMenu="ContextMenu1"/>
+        </ContextPopup.ContextMaps>
+    
+    </ContextPopup>
+        
+	</Application.Views>
+</Application>

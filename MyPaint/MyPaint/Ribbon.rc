@@ -1,0 +1,202 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_NEW_LabelTitle_RESID L"New" /* LabelTitle ID_CMD_NEW_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_NEW_TooltipTitle_RESID L"New (Ctrl+N)" /* TooltipTitle ID_CMD_NEW_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_NEW_TooltipDescription_RESID L"Create a new image." /* TooltipDescription ID_CMD_NEW_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_NEW_LargeImages_RESID    BITMAP    "Res\\New32.bmp" /* LargeImages ID_CMD_NEW_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_SAVEAS_LabelTitle_RESID L"Save as " /* LabelTitle ID_CMD_SAVEAS_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_SAVEAS_TooltipTitle_RESID L"Save as" /* TooltipTitle ID_CMD_SAVEAS_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_SAVEAS_TooltipDescription_RESID L"Save as..." /* TooltipDescription ID_CMD_SAVEAS_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_SAVEAS_LargeImages_RESID    IMAGE    "Res\\saveas32.png" /* LargeImages ID_CMD_SAVEAS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_UNDO_LabelTitle_RESID L"Undo" /* LabelTitle ID_CMD_UNDO_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_UNDO_TooltipTitle_RESID L"Undo (Ctrl+Z)" /* TooltipTitle ID_CMD_UNDO_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_UNDO_TooltipDescription_RESID L"Undo a shape" /* TooltipDescription ID_CMD_UNDO_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_UNDO_LargeImages_RESID    BITMAP    "Res\\New32.bmp" /* LargeImages ID_CMD_UNDO_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPEN_LabelTitle_RESID L"Open" /* LabelTitle ID_CMD_OPEN_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPEN_TooltipTitle_RESID L"Open (Ctrl+O)" /* TooltipTitle ID_CMD_OPEN_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPEN_TooltipDescription_RESID L"Open an existing image." /* TooltipDescription ID_CMD_OPEN_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_OPEN_LargeImages_RESID    BITMAP    "Res\\Open32.bmp" /* LargeImages ID_CMD_OPEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_SAVE_LabelTitle_RESID L"Save" /* LabelTitle ID_CMD_SAVE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_SAVE_TooltipTitle_RESID L"Save (Ctrl+S)" /* TooltipTitle ID_CMD_SAVE_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_SAVE_TooltipDescription_RESID L"Save the current image." /* TooltipDescription ID_CMD_SAVE_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_SAVE_LargeImages_RESID    BITMAP    "Res\\Save32.bmp" /* LargeImages ID_CMD_SAVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_LabelTitle_RESID L"Exit" /* LabelTitle ID_CMD_EXIT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_TooltipTitle_RESID L"Exit (Ctrl+X)" /* TooltipTitle ID_CMD_EXIT_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_EXIT_TooltipDescription_RESID L"Exit application." /* TooltipDescription ID_CMD_EXIT_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_EXIT_LargeImages_RESID    BITMAP    "Res\\Exit32.bmp" /* LargeImages ID_CMD_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LINE_LabelTitle_RESID L"Line" /* LabelTitle ID_CMD_LINE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_LINE_TooltipDescription_RESID L"Draw a line" /* TooltipDescription ID_CMD_LINE_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_LINE_LargeImages_RESID    BITMAP    "Res\\line_120.bmp" /* LargeImages ID_CMD_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_RECTANGLE_LabelTitle_RESID L"Rectangle" /* LabelTitle ID_CMD_RECTANGLE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_RECTANGLE_TooltipDescription_RESID L"Draw a rectangle" /* TooltipDescription ID_CMD_RECTANGLE_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_RECTANGLE_LargeImages_RESID    BITMAP    "Res\\rectangle_120.bmp" /* LargeImages ID_CMD_RECTANGLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_Elipse_LabelTitle_RESID L"Elipse" /* LabelTitle ID_CMD_Elipse_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_Elipse_TooltipDescription_RESID L"Draw an elipse" /* TooltipDescription ID_CMD_Elipse_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_Elipse_LargeImages_RESID    BITMAP    "Res\\elipse_120.bmp" /* LargeImages ID_CMD_Elipse_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_COLORBORDER_LabelTitle_RESID L"Color of border" /* LabelTitle ID_CMD_COLORBORDER_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_COLORBORDER_TooltipDescription_RESID L"Color of border" /* TooltipDescription ID_CMD_COLORBORDER_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_COLORBORDER_LargeImages_RESID    IMAGE    "Res\\Color.png" /* LargeImages ID_CMD_COLORBORDER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_COLORSOLID_LabelTitle_RESID L"Solid color" /* LabelTitle ID_CMD_COLORSOLID_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_COLORSOLID_TooltipDescription_RESID L"Color of shape" /* TooltipDescription ID_CMD_COLORSOLID_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_COLORSOLID_LargeImages_RESID    IMAGE    "Res\\Solid.png" /* LargeImages ID_CMD_COLORSOLID_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TRANSPARENT_LabelTitle_RESID L"Transparent" /* LabelTitle ID_CMD_TRANSPARENT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_TRANSPARENT_TooltipDescription_RESID L"Shape with no color" /* TooltipDescription ID_CMD_TRANSPARENT_TooltipDescription_RESID: (null) */
+END
+
+ID_CMD_TRANSPARENT_LargeImages_RESID    IMAGE    "Res\\transparent32.png" /* LargeImages ID_CMD_TRANSPARENT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_SIZE_LabelTitle_RESID L"Size" /* LabelTitle ID_CMD_SIZE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_SIZE_LargeImages_RESID    IMAGE    "Res\\size.png" /* LargeImages ID_CMD_SIZE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_STYLE_LabelTitle_RESID L"Style" /* LabelTitle ID_CMD_STYLE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_STYLE_LargeImages_RESID    IMAGE    "Res\\style.png" /* LargeImages ID_CMD_STYLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdTabMain_LabelTitle_RESID L"Main" /* LabelTitle cmdTabMain_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdBorder_LabelTitle_RESID L"Vi\x1ec1n" /* LabelTitle cmdBorder_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdShape_LabelTitle_RESID L"H\x00ecnh" /* LabelTitle cmdShape_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdFileMenu_LabelTitle_RESID L"Label:cmdFileMenu" /* LabelTitle cmdFileMenu_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"
